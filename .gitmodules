@@ -1,0 +1,3 @@
+[submodule "scikit-learn-mooc"]
+	path = scikit-learn-mooc
+	url = git@github.com:INRIA/scikit-learn-mooc.git
