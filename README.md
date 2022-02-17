@@ -15,12 +15,17 @@ conda create -p ./env python=3.8 numpy pandas matplotlib jupyter scikit-learn se
 * Pyenv + Poetry
 ```bash
 poetry init --name ml-courses --python=3.9.9
-poetry add pandas numpy matplotlib scikit-learn seaborn
+poetry add pandas numpy matplotlib scikit-learn seaborn ipykernel jupyterlab
 ```
 
-## ML Classic
+* JupyterLab
+```bash
+jupyter-lab --no-browser
+```
 
-### Machine learning in python with scikit-learn
+## ML Classic
+
+### Machine learning in python with scikit-learn
 * scikit-learn-mooc (https://github.com/INRIA/scikit-learn-mooc/)
 
 ```bash
@@ -36,7 +41,7 @@ git submodule add -f git@github.com:INRIA/scikit-learn-mooc.git scikit-learn-moo
 git submodule add https://github.com/mrdbourke/zero-to-mastery-ml.git zero-to-mastery-ml
 git submodule update --remote --init zero-to-mastery-ml
 
-### deeplearning.ai - Natural Language Processing with Classification and Vector Spaces
+### deeplearning.ai - Natural Language Processing with Classification and Vector Spaces
 * Course: https://www.coursera.org/learn/classification-vector-spaces-in-nlp
 * Folder: deeplearning_ai_nlp_2020
 
